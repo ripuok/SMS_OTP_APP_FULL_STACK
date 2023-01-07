@@ -1,0 +1,32 @@
+﻿
+
+BUILD A SIMPLE CONTACTS WEB APP
+(WITH OTP SMS SENDING FUNCTIONALITY)
+Overview
+For this project, you will use a web app that can send an OTP (via SMS) to a list of contacts, one at a time.
+Requirements
+1. The main page should have two menu options.
+2. First Menu Option
+1. List of contacts
+
+Inputs: JSON list of contacts (you can create your own fake contacts - you can make the fake data by using a static JSON)
+Outputs: Name of the Contact (First + Last) should show up in each row of the list.
+Upon selecting a contact in the list, the contact info page for that contact will be displayed (in a new page).
+2. Contact info page - Contact Details with button.
+Display contact data: name, phone number.
+Button saying "Send Message" which on click opens next screen.
+3. New Message Screen (Compose).
+Components: Text Field, Send button.
+· Text Field needs to have text along the following lines: "Hi. Your OTP is: 123456". 123456 needs to be a random six-digit number. Upon hitting send, the contents of the text field will be sent to the selected recipient as an SMS using online services. For this you can a free trial of any of the services like Twilio, Vonage etc. If you do use these, then add the number +919810153260 to the accounts that can receive an SMS.
+3. Second Menu Option
+1. List of messages sent
+In descending order of date-time
+⚫ Inputs: list of messages already sent (you can choose the best way to do this)
+4. User experience
+Outputs: Each list item will be the Name of the contact, the time of the SMS and the OTP sent in the SMS.
+1. Responsiveness.
+2. You should try to handle Errors from the server (like the SMS one you choose to use).
+3. You should consider client side input validation.
+4. You should focus on general front end design and make it as professional as possible. It should work, be easy to navigate and use and free of clutter.
+Improvements
+Feel free to add and suggest improvements to the application.

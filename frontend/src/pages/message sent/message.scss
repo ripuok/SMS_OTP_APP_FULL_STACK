@@ -1,0 +1,35 @@
+.main {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;   
+    font-weight: bold;
+  
+  }
+  
+  .history {
+    margin: 20px 0;
+    padding: 0 20px;
+    text-align: left;
+  }
+  
+  .history ul {
+    list-style: none;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #666;
+  }
+  
